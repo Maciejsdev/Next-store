@@ -1,3 +1,5 @@
+"use client";
+
 import axios from "axios";
 import { useSearchParams } from "next/navigation";
 import React, { useCallback } from "react";
@@ -11,7 +13,7 @@ const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string
 );
 
-async function CheckoutPage() {
+function CheckoutPage() {
   const searchParams = useSearchParams();
 
   const orderId = searchParams.get("orderId");
