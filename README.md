@@ -1,3 +1,8 @@
+### Admin account
+aykentest@gmail.com
+Testowe123@?
+
+
 ### Next App
 
 ```sh
